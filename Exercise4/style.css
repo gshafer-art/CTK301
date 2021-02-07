@@ -1,0 +1,82 @@
+.customtext {
+font-family: Arial, Helvetica, sans-serif;
+font-style: italic;
+font-weight: bold;
+font-size: 20px;
+
+}
+
+h1 {
+  font-weight: normal;
+}
+
+.fontcombined {
+font: bold 20px Arial, Helvetica, sans-serif;
+}
+
+body {
+background-color: #eeeeee;
+}
+
+main {
+background-color: #0000ff;
+}
+
+.boxmodel {
+border: 2px solid #0000ff;
+padding: 20px 20px 20px 20px;
+margin: 10px 10px 10px 10px;
+}
+
+.otherbox {
+padding: 10px;
+margin: 20px;
+border: 1px solid #ff0000;
+}
+
+.zeroout {
+margin: 0;
+padding: 0;
+}
+
+.pwidth {
+width: 100px;
+border: 1px solid #00ff00;
+}
+
+.textright {
+text-align: right;
+}
+
+.textleft {
+text-align: left;
+}
+
+.textcenter {
+text-align: center;
+}
+
+.textjustify {
+text-align: justify;
+}
+
+.textspace {
+letter-spacing: 20px;
+}
+
+.textheight {
+line-height: 20px;
+}
+
+.imgbox {
+border: 2px solid #ff0000;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+background-color: #0000ff;
+}
+body {
+background-color: #ffffff;
+background-image: url(gradient.jpg);
+background-repeat: repeat;
+background-position: center;
+}
