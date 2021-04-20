@@ -1,0 +1,215 @@
+body {
+  background-color: #ADD8E6;
+}
+
+h1 {
+  background-color: #00CC45;
+  font-size: 80px;
+  width: 1100px;
+  margin: 24px auto;
+  margin-bottom: -40px;
+  text-align: center;
+  border: 1px solid black;
+  padding: 40px;
+text-shadow: 2px 2px 2px #000;
+}
+
+.logo{
+margin-bottom: -24px;
+margin-top: -160px;
+height: 170px;
+width: 200px;
+margin-left: 24px auto;
+margin-right: 1000px auto;
+}
+
+nav li {
+ float: left;
+  padding: 20px;
+  width: 200px;
+  border: none;
+  margin: 15px;
+  margin-left: -10px;
+  color: #FFFFFF;
+  background-color: #00CC45;
+  text-decoration: none;
+   list-style-type: none;
+  text-align: center;
+  font-size: 40px;
+  box-shadow: 10px 10px 10px #666;
+  text-shadow: 2px 2px 2px #000;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+nav li:hover{
+  background-color: #008030;
+  color: #EEEEEE;
+
+}
+
+#wrapper {
+  margin: 20px auto;
+  width: 1180px;
+  border: 1px solid black;
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+   /* This is for the dummy columns, replace or delete */
+}
+
+.floatimage {
+  margin: 10px;
+  margin-top: 27px;
+  margin-left: 20px;
+  float: left;
+  border: 4px solid #000000;
+  width: 850px;
+  height: 603px;
+  border-radius: 10px;
+}
+
+.clear {
+  clear: both;
+  margin-left: 35px;
+  width: 840px;
+  font-family: 'New Tegomin', serif;
+  font-size: 20px;
+  margin-right: 30px;
+}
+
+.footlogo{
+  margin-left: 20px;
+  width: 850px;
+  height: 200px;
+  margin-top: 50px;
+  margin-bottom: 24px;
+}
+
+.bottomlogo{
+height: 200px;
+width: 200px;
+margin-top: -300px;
+margin-left: -150px;
+margin-right: 1000px;
+}
+
+.roundedbox {
+  padding: 10px;
+  width: 250px;
+  border: 2px solid #999;
+  background-color: #ccc;
+  border-radius: 10px;
+}
+
+.circle {
+  float: left;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border: 3px solid black;
+  background-color: #00CC45;
+  color: white;
+  border-radius: 500px;
+  text-align: center;
+  font-size: 36px;
+  margin-left: -260px;
+  margin-top: -120px;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+
+.dropshadowbox {
+  padding: 10px;
+  margin: 20px;
+  width: 250px;
+  border: 1px solid #999;
+  background-color: #ccc;
+  box-shadow: 10px 10px 10px #666; /* x, y, blur, color */
+}
+
+.square{
+  width: 270px;
+  height: 250px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: -5px;
+}
+
+.circlep {
+  float: left;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border: 3px solid black;
+  background-color: #00CC45;
+  color: white;
+  border-radius: 500px;
+  text-align: center;
+  font-size: 36px;
+  margin-left: -270px;
+  margin-top: -220px;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+
+footer {
+  text-align: center;
+  padding: 10px;
+  width: 1160px;
+  height: 70px;
+  border: 2px solid #00CC45;
+  background-color: #00CC45;
+  margin: 20px auto;
+  margin-top: -10px;
+}
+
+.bio {
+  margin-left: 40px;
+  font-family: 'New Tegomin', serif;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+
+}
+
+.cred {
+  font-family: 'New Tegomin', serif;
+text-align: center;
+}
+
+.me{
+  margin: 10px;
+  margin-top: 27px;
+  margin-left: 20px;
+  float: left;
+  border: 4px solid #000000;
+  width: 600px;;
+  height: 600px;
+  border-radius: 10px;
+}
+
+.circles {
+  float: left;
+  padding: 10px;
+  width: 250px;
+  height: 250px;
+  border: 3px solid black;
+  background-color: #00CC45;
+  color: white;
+  border-radius: 500px;
+  text-align: center;
+  font-size: 36px;
+  margin-left: -260px;
+  margin-top: -230px;
+  transition: background-color 1.0s, width 2.0s, color 2.0s;
+}
+
+/* style for dummy columns, delete and replace with your own CSS */
+/* .dummycolumn {
+  background-color: rgba(255,0,0,.25);
+  grid-column: span 1;
+}
